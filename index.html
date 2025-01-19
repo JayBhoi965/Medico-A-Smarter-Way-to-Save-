@@ -10,6 +10,12 @@
 
     <!-- medico -> It's short, memorable, and has a professional yet approachable vibe -->
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -18,17 +24,26 @@
     <div class="main_container">
 
         <div class="navbar">
-            <ul>
-                <li>Home</li>
-                <li>about us</li>
-                <li>Mission</li>
-                <li>CSR</li>
-                <li>Contact</li>
+            <ul class="main_nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About US</a></li>
+                <li><a href="#">Mission</a></li>
+                <li><a href="#">CSR</a></li>
+                <li><a href="#">Contact</a></li>
+                <div class="search">
+                    <input type="text" name="src" id="search_box" placeholder="Search">
+                    <button id="search_btn">⌕</button>
+                </div>
             </ul>
         </div>
+    </div>
+
+   
 
     </div>
 
+
+    <script src="brain.js"></script>
 </body>
 
 </html>
